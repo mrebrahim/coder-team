@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> classic </title>
+        <link rel="stylesheet" href="normalizes.css">
+        <link rel="stylesheet" href="web.css">
+        <link rel="stylesheet" href="css/web.css">
+        <link rel="stylesheet" href="css/jquery.bxslider.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- start navgation bar -->
+            <div class="navbar">
+                <div class="container">
+                    <div class="logo"> <img src="logo.png" width="205px" height="40px"></div>
+                    <div class="list">
+                        <ul>
+                      <li> services</li>
+                        <li>countries</li>
+                        <li>academic program</li>
+							<!--start branch-->
+                        <li>branchers
+                           <ul class="dropdown-content">
+				         	<li> <a href="#">palestine</a></li>
+				         	<li><a href="#">lebanon</a></li>
+					        <li><a href="#">egypt</a></li>
+				    	    <li><a href="#">jurdon</a></li>
+				          </ul>
+                        </li>
+							<!--end branch-->
+                        <li>about us</li>
+                        <li>contact us</li>
+                            <li>عربى</li>
+                  </ul>
+
+                   </div>
+                </div>
+            </div>
+        <!-- end navagation bar -->
+        <!--start slider-->
+        <div class="header">
+          <div>
+            <ul  class="slider" style="position: relative;">
+              <li>
+        <img  src="Internation_WEB.jpg" alt="hello1">
+              </li>
+              <li>
+        <img  src="600_best_backpack.jpg" alt="hello2">
+              </li>
+            </ul>
+            <!--box-->
+            <div class="boxes" style="
+              background: rgba(212, 210, 210, 0.14);
+              border-radius: 4px;
+              border: 1px solid #d0d0d0;
+              padding: 33px 21px;position: absolute;
+            bottom: -600px;
+            left: 12px;
+            right:14px;
+            z-index: 4;
+            margin-top: 30px;    border-radius: 5px;" >
+          <section>
+            <select class="box1" name="country" data-select2-id="1" tabindex="-1" aria-hidden="true" style="width: 27%;
+              float: left;
+              padding: 10px;
+              color: #131313;margin-right: 20px;font-size: 17px;
+            font-family: tahoma;
+            color: #949494;    border-radius: 5px;">
+              <option value="" data-select2-id="3">Country</option>
+                          <option value="11">Egypt</option>
+                          <option value="14">Italy</option>
+            </select>
+            <select class="box2" name="university" data-select2-id="4" tabindex="-1" aria-hidden="true" style="width: 27%;
+              float: left;
+              padding: 10px;
+              color: #131313;margin-right: 20px;    font-size: 17px;
+            font-family: tahoma;
+            color: #949494;    border-radius: 5px;">
+              <option value="" data-select2-id="6">University</option>
+                          <option data-country="11" value="12">Cairo University </option>
+                          <option data-country="14" value="16">Politecnico Di Torino</option>
+                          <option data-country="14" value="37">University of Bologna</option>
+                          <option data-country="14" value="38">University of Turin</option>
+                          <option data-country="14" value="50">University of Lecce</option>
+                          <option data-country="14" value="51">University of Siena</option>
+                          <option data-country="14" value="72">Polytechnic University of Milan</option>
+                          <option data-country="14" value="98">University of Padua</option>
+                          <option data-country="14" value="130">University of Florence</option>
+                          <option data-country="14" value="139">University of Ferrara</option>
+                          <option data-country="14" value="144">Sapienza University of Rome</option>
+                          <option data-country="14" value="148">University of Rome Tor Vergata</option>
+                          <option data-country="14" value="180">Bocconi University</option>
+                          <option data-country="14" value="191">University of Catania</option>
+                          <option data-country="14" value="217">University of Pavia</option>
+                          <option data-country="14" value="218">University of Camerino</option>
+                          <option data-country="14" value="219">University of Calabria</option>
+                          <option data-country="14" value="220">University of Cassino and Southern Lazio</option>
+                          <option data-country="14" value="225">University of Trento</option>
+                          <option data-country="14" value="255">University of Macerata</option>
+                          <option data-country="14" value="256">University of Messina</option>
+                          <option data-country="14" value="257">University of Modena</option>
+                          <option data-country="14" value="258">University of Naples Federico II</option>
+                          <option data-country="14" value="259">University of Palermo</option>
+                          <option data-country="14" value="260">University of Parma</option>
+                          <option data-country="14" value="261">University of Perugia</option>
+                          <option data-country="14" value="262">University of Pisa</option>
+                          <option data-country="14" value="263">Basilicata University, Potenz</option>
+                          <option data-country="14" value="264">Mediterranea University of Reggio Calabria</option>
+                          <option data-country="14" value="265">Third University of Roma</option>
+                            </select>
+                            <div class="search-item" >
+                              <input type="text" name="program" value="" placeholder="program" style="width: 27%;
+              float: left;
+              padding: 9px;
+              color: #131313;margin-right: 20px;    font-size: 17px;
+            font-family: tahoma;
+            color: #949494;    border-radius: 5px;">
+                            </div>
+                            <div class="search-btn">
+                              <button class="btn" style="line-height: 18px;background: #2f4a93;
+                              color: white;
+                                  font-weight: bold;box-shadow: none;padding: 9px 56px 5px 58px;display: block; box-sizing: border-box;cursor: pointer;">Search</button>
+                            </div>
+          </section>
+            </div>
+            <!--box-->
+          </div>
+
+        </div>
+        <!--end slider-->
+        <!--start aboutus-->
+        <div class="block">
+
+
+        <section class="clearfix">
+            <h1> About us</h1>
+            <div id="parent">
+              <div class="left-child">
+                <p>
+                   <b>Ready4Study</b> is an educational consultancy company based in Italy, Egypt, Lebanon, Jordan and Palestine. The company offers services to help students study abroad in prestigious universities. Of course, we are not going to mention the importance of studying abroad. The cost, the experience, the post-graduation opportunity. Especially for students coming from regions where education is not really supported. <b>Our objective</b> is to guide students wishing to study abroad during their admission and enrolment procedure. Our job is to direct students during the univer...
+                </p>
+                <input type="button" value="read more">
+              </div>
+                <iframe width="320" height="230"
+                src="https://www.youtube.com/embed/ziiuBCCyuDE" frameborder=0></iframe>
+
+            </div>
+              </div>
+        </section>
+        <!--end aboutus-->
+
+        <!--start of resume-->
+        <div class="resume">
+        	<div class="contaner">
+        		<h2>Services</h2><br>
+            <span>We offer a wide range of services</span>
+        		<p>University Application  |  Accommodation  |  City Guide  |  Language Training  |<br>  University Registration  |  Airport Pick-up  |  Residence Permit  |  Paper <br>Translation  |  Scholarship Application  |  Visa Appl...</p>
+        <button type="button" name="button">read more</button>
+        	</div>
+        </div>
+
+
+        <!--end of resume-->
+        <!--Start gallary Bar-->
+                   <div class="our-gallary">
+                        <h2 class="big-heading">Gallary</h2>
+                   <div class="picture">
+                     <div class="container">
+
+                       <div class="row">
+                         <img src="img/01.jpg" alt=""  />
+                         <img src="img/02.jpg" alt=""  />
+                         <img src="img/03.jpg" alt=""  />
+                         <img src="img/04.jpg" alt=""  />
+                         <img src="img/05.jpg" alt=""  />
+                      </div>
+                      <div class="row">
+                        <img src="img/06.jpg" alt=""  />
+                        <img src="img/07.jpg" alt=""  />
+                        <img src="img/08.jpg" alt=""  />
+                        <img src="img/09.jpg" alt=""  />
+                        <img src="img/10.jpg" alt=""  />
+                     </div>
+
+                   </div>
+
+        </div>
+        <!--End gallary Bar-->
+        <!--footer-->
+        <div class="footer">
+            <div class="container">
+       <!---========contact us-========-->
+                <div class="contact">Contact us</div>
+                <div class="cols">
+        <!---========colmn1-========-->
+                    <div class ="col social">
+                        <div class="head-of-col">Links</div>
+                        <ul>
+                           <li><a href="#">Home</a></li>
+                           <li><a href="#">Services</a></li>
+                           <li><a href="#">Countries</a></li>
+                           <li><a href="#">Academic<br> Programs</a></li>
+                           <li><a href="#">Branches</a></li>
+                           <li><a href="#">About us</a></li>
+                        </ul>
+                    </div>
+        <!---========colmn2-========-->
+                    <div class ="col address">
+                        <div class="head-of-col">Get In Touch</div>
+                        <div class="email">
+                          info@ready4study.eu
+                        </div>
+                        <div>
+                          + (393) 483 750893
+                        </div>
+                    </div>
+        <!---========colmn3-========-->
+                    <div class ="form">
+                        <div class="head-of-col">Let's Talk</div>
+                        <div class="inputs">
+                            <input type="text" placeholder="Your name">
+                            <div class="email-ad"><input type="text" placeholder="Email address"></div>
+                            <input  type="text" placeholder="Country">
+                            <div class="email-ad"><input  type="text" placeholder="Phone number"></div>
+                        </div>
+                        <textarea cols="63" rows="4">Your message</textarea>
+                    </div>
+                </div>
+        <!---========social btns & send button-========-->
+                <div class="social-btns">
+                    <ul>
+                      <li><a href="#"><i class="fa fa-lg fa-facebook" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fa fa-lg fa-youtube"></i></a></li>
+                    </ul>
+                    <button class="one">send</button>
+                </div>
+        <!--=======copyright======================-->
+                <div class="footer-of-fotter">
+                    <div class="copyright">&copy; 2018 Ready4Study</div>
+                    <div class="powerd">
+                          Powered By Cortoba
+                          <img src="http://ready4study.eu/assets/images/by.png" alt="logo of the company">
+                    </div>
+                </div>
+           </div>
+        </div>
+
+        <script type="text/javascript"src="js/jquery-3.3.1.min.js" ></script>
+        <script type="text/javascript"src="js/web.js" ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <script src="js/jquery.mixitup.js" ></script>
+        <script src="js/jquery.nicescroll.min.js" ></script>
+        <script src="js/html5shiv.min.js" ></script>
+    </body>
+</html>
